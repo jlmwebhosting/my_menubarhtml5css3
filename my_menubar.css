@@ -1,0 +1,33 @@
+body {
+  background-color: #0a68bb;
+  background-image: url('http://www.mojoimage.com/free-image-hosting-th-12/5770sample.jpg');
+  background-size : cover;
+}
+
+nav {
+  margin : 50px auto;
+  width  : 290px;
+}
+
+menu {
+  border-radius : 3px;
+}
+
+menu:after , menu:before {
+  display : block;
+  content : ' ';
+}
+menu:after {
+  clear : both;
+}
+
+li {
+  list-style-type : none;
+  background      : linear-gradient(rgba(220,220,255,0.4) 85%, rgba(255,255,255,0.5) 100%);
+
+  float   : left;
+  cursor  : pointer;
+  padding : 3px 10px;
+  border-top    : 2px solid rgba(200,200,255,0.5);
+  border-bottom : 2px solid rgba(50,50,50,0.4);
+}
